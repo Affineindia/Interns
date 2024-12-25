@@ -1,0 +1,70 @@
+.add-event-background{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif');
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; 
+  color: #333;
+}
+.tabs-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  
+  .tabs-header button {
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+  }
+  .tabs-header button:hover{
+    background-color: aliceblue;
+  }
+  
+  .tabs-header button.active {
+    background: #0056b3;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .dashboard {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .chart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .tomorrow-notifications {
+    margin-top: 20px;
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding: 8px;
+    border-radius: 8px;
+    /* width:100%;
+    margin-left: 300px; */
+  }
+  .tomorrow-notifications li{
+    font-size: larger;
+  }
+  
