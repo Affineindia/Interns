@@ -1,0 +1,145 @@
+
+.dashboard-container {
+    font-family: 'Poppins', sans-serif;
+    background-color:#a8dadc; 
+    min-height: 100vh;
+    padding: 20px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #1d3557;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .Header {
+    background-color: #1d3557;
+    display: flex;
+    width: 120%;  /* Make sure it spans the entire width */
+    height: 80px;
+    align-items: center;
+    justify-content: center;  /* Centers the content horizontally */
+    gap: 2rem;
+}
+
+.Header-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f1faee;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: center;  /* Center the text */
+}
+
+.Header-title:hover {
+    color: #a8dadc;
+}
+
+  
+
+.dashboard-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #f1faee;
+    text-align: center;
+    background: linear-gradient(90deg, #1d3557, #457b9d, #1d3557);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #f1faee;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.dashboard-subtitle {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 105px;
+    color: #e7efff;
+    padding: 10px 20px;
+    background-color: #1d3557;;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.chart-container {
+    width: 80%;
+    height: 300px;
+    max-width: 700px;
+    margin: 70px;
+    background: #f1faee;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getevent-btn {
+    background-color: #1d3557; 
+    color: #f1faee; 
+    border: 2px solid #f1faee; 
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    /* Align the button to the left side */
+    margin-left: 0;
+    position: absolute; /* Positioning the button absolutely */
+    left: 20px; /* 20px from the left edge */
+    top: 35px; /* Optional: Adjust vertical position */
+}
+
+.getevent-btn:hover {
+    background-color: #f1faee; 
+    color: #1d3557; 
+    transform: scale(1.1); 
+}
+
+
+.Toastify__toast-container {
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Toastify__toast {
+    background: #de510a;
+    color: #f1faee;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.Toastify__toast-body h4 {
+    margin: 0 0 10px;
+    color: #f1faee;
+}
+
+.Toastify__toast-body ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+.Toastify__toast-body li {
+    color: #f1faee;
+    list-style: disc;
+}

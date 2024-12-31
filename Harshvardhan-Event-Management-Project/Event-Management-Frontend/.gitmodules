@@ -1,0 +1,3 @@
+[submodule "event_app"]
+	path = event_app
+	url = https://github.com/Affineindia/Interns.git

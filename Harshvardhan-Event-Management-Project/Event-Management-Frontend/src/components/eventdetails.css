@@ -1,0 +1,133 @@
+/* Event Details Container */
+.event-details {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1faee; 
+  border: 2px solid #1d3557; 
+  border-radius: 12px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 100px; 
+}
+
+/* Background */
+.background {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://i.pinimg.com/originals/5f/08/50/5f08505655b858d52ea4ef07a6fa58d5.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Go Back Button */
+.go-back-btn {
+  background-color: #1d3557; 
+  color: #f1faee; 
+  border: 2px solid #f1faee; 
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.go-back-btn:hover {
+  background-color: #f1faee; 
+  color: #1d3557; 
+  transform: scale(1.1); 
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #1d3557; 
+  margin-bottom: 20px;
+}
+
+/* Event Details Image */
+.event-details-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Event Description */
+.description {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1d3557; 
+}
+
+.description strong {
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+p strong {
+  color: #1d3557;
+}
+
+/* Book Button */
+.book-btn {
+  background-color: #1d3557; 
+  color: #f1faee; 
+  border: 2px solid #f1faee; 
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  margin-left: auto; 
+  margin-right: auto;
+  display: block;
+}
+
+.book-btn:hover {
+  background-color: #f1faee; 
+  color: #1d3557; 
+  transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .event-details {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .go-back-btn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .book-btn {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
